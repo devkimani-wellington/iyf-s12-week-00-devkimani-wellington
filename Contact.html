@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Wellington Investments</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 20px auto; padding: 20px; }
+        fieldset { margin-bottom: 20px; border: 1px solid #ccc; padding: 15px; border-radius: 5px; }
+        legend { font-weight: bold; padding: 0 10px; }
+        label { display: block; margin-top: 12px; font-weight: bold; }
+        input, select, textarea { width: 100%; padding: 8px; margin-top: 5px; box-sizing: border-box; }
+        input[type="checkbox"] { width: auto; }
+        button { background: #007bff; color: white; padding: 12px 25px; border: none; border-radius: 5px; cursor: pointer; margin-top: 15px; font-size: 16px; }
+        .checkbox-label { display: flex; align-items: center; gap: 8px; font-weight: normal; margin-top: 15px; }
+    </style>
+</head>
+<body>
+    <h1>Contact Wellington Investments & Logistics</h1>
+    <form action="#" method="POST">
+        
+        <fieldset>
+            <legend>Personal Information</legend>
+            
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" value="Joseph Kimani Kung'u" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@email.com" value="kunguj800@gmail.com" required>
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="0741 929 030" value="0741929030">
+
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject" required>
+                <option value="" disabled>Select a subject</option>
+                <option value="technology" selected>Technology Company - Partnership</option>
+                <option value="logistics">Logistics Services</option>
+                <option value="investment">Investment Inquiry</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Message</legend>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Type your message here (minimum 50 characters)" required minlength="50" rows="6">Hello, My name is Joseph Kimani Kung'u from Wellington Investments & Logistics. We are a logistics and investment company based in Nairobi. We help small traders move goods safely with tracked delivery, video proof, and pay-on-delivery. We are looking to partner with your technology company to build digital solutions for tracking, bookings, and investments for our 10,000 traders vision. Let's connect.</textarea>
+
+            <label for="newsletter" class="checkbox-label">
+                <input type="checkbox" id="newsletter" name="newsletter" checked>
+                Subscribe to our newsletter
+            </label>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+              </html>
