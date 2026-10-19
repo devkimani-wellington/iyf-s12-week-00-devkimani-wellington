@@ -52,3 +52,7 @@ I love learning through books and audiobooks, staying active with soccer and wal
 - Dev.to Article: https://dev.to/devkimani-wellington/how-i-audited-my-portfolio-for-accessibility-xxxx
 - Portfolio Live: https://devkimani-wellington.github.io/iyf-s12-week-01-devkimani-wellington/
 - Word Count: 450 words with before/after code blocks
+
+git config --global user.name "Joseph Kimani"
+git config --global user.email "kunguj800@gmail.com"
+git config --global --list
